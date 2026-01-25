@@ -19,7 +19,7 @@
 # Opening a File
 # -------------------------------
 
-# Syntax:
+# Syntax:-
 # file_object = open("filename", "mode")
 
 # Example:
