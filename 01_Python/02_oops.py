@@ -13,7 +13,7 @@ print (stu1.college)         #printing specific properties
 #Constrctor(__init__ method):-
 
 def __init__(self):
-    print("This is a constructor")
+    print("This is the constructor")
 
 
 #Class using  constrcor:-
