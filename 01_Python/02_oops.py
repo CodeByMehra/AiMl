@@ -70,7 +70,7 @@ class Laptop:
         # self.storage_type → class variable (accessed via object)
         print(f"laptop has {self.RAM} RAM & {self.storage} {self.storage_type}")
 
-# Creating an object of Laptop class
+# Creating an object of Laptop class 
 # l1 is an instance (object) of Laptop
 # "16gb" is passed to RAM, "512gb" is passed to storage
 l1 = Laptop("16gb", "512gb")
