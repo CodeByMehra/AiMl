@@ -1,5 +1,6 @@
 import flappy_bird_gymnasium
 import gymnasium as gym
+from dqn import DQN
 
 if torch.backends.mps.is_available():
     device = "mps"
@@ -8,19 +9,27 @@ elif torch.cuda.is_available():
 else:
     device = "cpu"
 
-env = gym.make("FlappyBird-v0", render_mode="human", use_lidar=True)
 
-obstates, _ = env.reset()
-while True:
-    # Next action:
-    # (feed the observation to your agent here)
-    action = env.action_space.sample()
+def run(self, is_training=True, render = False): 
+    env = gym.make("FlappyBird-v0", render_mode="human" if render else None, use_lidar=True)
 
-    # Processing:  We will use terminated as done variable
-    next_state, reward, terminated, _, _ = env.step(action)
-    
-    # Checking if the player is still alive
-    if terminated:
-        break
+    num_states = env.observation_space.shape[0]  # input dim
+    num_actions = env.action_space.n             # output dim
 
-env.close() 
+    policy_dqn = DQN(num_states, num_actions).to(device)
+
+
+    obstates, _ = env.reset()
+    while True:
+        # Next action:
+        # (feed the observation to your agent here)
+        action = env.action_space.sample()
+
+        # Processing:  We will use terminated as done variable
+        next_state, reward, terminated, _, _ = env.step(action)
+        
+        # Checking if the player is still alive
+        if terminated:
+            break
+
+    env.close() 
