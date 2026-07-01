@@ -58,3 +58,13 @@ Thumbs.db
 # =========================
 *.tmp
 *.swp
+
+saved_summary_model/
+
+*.safetensors
+
+*.safetensors
+
+saved_summary_model/
+
+08_Transformer/TextSummarizerApp/saved_summary_model/
