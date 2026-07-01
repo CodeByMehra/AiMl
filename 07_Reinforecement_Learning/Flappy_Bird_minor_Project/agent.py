@@ -58,7 +58,7 @@ class Agent:
 
         policy_dqn = DQN(num_states, num_actions).to(device)
 
-
+        epsilon = 0  # Initialize for both training and testing
 
         if is_training:
             memory = ReplayMemory(self.replay_memory_size)
@@ -73,9 +73,14 @@ class Agent:
             best_reward = float("-inf")
 
         else: 
-            #best policy load
-            policy_dqn.load_state_dict(torch.load(self.MODEL_FILE))
+            # Testing mode: Load the best trained model and use greedy policy (no exploration)
+            if os.path.exists(self.MODEL_FILE):
+                print(f"Loading best model from {self.MODEL_FILE}...")
+                policy_dqn.load_state_dict(torch.load(self.MODEL_FILE, map_location=device))
+            else:
+                print(f"Warning: Model file not found at {self.MODEL_FILE}. Using untrained model.")
             policy_dqn.eval()
+            epsilon = 0  # No exploration during testing - pure exploitation
 
         for episode in itertools.count():
 
@@ -109,12 +114,11 @@ class Agent:
                     memory.append((state, action, next_state, reward,  terminated))
                     steps += 1
 
-
-                    state = next_state
+                # Update state for next iteration (both training and testing)
+                state = next_state
                     
 
             print(f" for episode = {episode +1} with total reward = {episode_reward} and epsilon = {epsilon}")
-
 
             if is_training:
                 #epsilon decay
@@ -128,6 +132,9 @@ class Agent:
 
                     torch.save(policy_dqn.state_dict(), self.MODEL_FILE)
                     best_reward = episode_reward
+            else:
+                # During testing, play only 1 episode and break
+                break
 
             if is_training and len(memory) > self.mini_batch_size:
                 # get samples
@@ -191,7 +198,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    dql = Agent(param_set=args.hyperparameters)
+    dql = Agent(params_set=args.hyperparameters)
 
     if args.train:
         dql.run(is_training=True)
