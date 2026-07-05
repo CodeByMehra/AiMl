@@ -68,3 +68,10 @@ saved_summary_model/
 saved_summary_model/
 
 08_Transformer/TextSummarizerApp/saved_summary_model/
+
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.vscode/
