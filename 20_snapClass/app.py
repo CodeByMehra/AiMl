@@ -3,9 +3,20 @@
 import streamlit as st
  
 def main():
-    st.header("Hey")
-    name = st.text_input("Enter Name")
 
-    st.button("Submit" , type= "primary")
+    if 'login_type' not in st.session_state:
+        st.session_state['login_type'] = None
+
+    match st.session_state['login_type']:
+
+        case 'teacher':
+            teacher_screen()
+
+        case 'student':
+            student_screen()
+ 
+        case None:
+            home_screen()
+
 
 main()
