@@ -3,7 +3,7 @@ numpy
 pandas
 
 
-scilit-learn #Face recognition (SVM)
+scikit-learn #Face recognition (SVM)
 dlib-bin # Face recognition
 
 # a model trained on face images
@@ -18,4 +18,4 @@ bcrypt #used for password hashing
 segno  # for QR
 pillow # # helps in image preprocessing
 
-streamlit
+streamlit #frontend library
