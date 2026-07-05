@@ -72,6 +72,7 @@ saved_summary_model/
 .venv/
 venv/
 __pycache__/
-.ipynb_checkpoints/
+*.pyc
 .env
 .vscode/
+.ipynb_checkpoints/
