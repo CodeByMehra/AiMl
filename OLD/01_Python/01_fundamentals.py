@@ -18,7 +18,7 @@ NOTE:
 - Theory is written using comments (#)
 - Executable examples are provided for practice
 """
- 
+
 # ===========================================================
 # 1. OUTPUT IN PYTHON
 # ===========================================================
