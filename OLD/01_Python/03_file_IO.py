@@ -27,7 +27,7 @@ f = open("data.txt", "r")   # Opens file in read mode
 f.close()                  # Always close the file after use
 
 
-# -------------------------------
+# ------------------------------- 
 # File Modes
 # -------------------------------
 
