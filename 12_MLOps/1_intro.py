@@ -29,3 +29,20 @@
 # Cloud              : AWS / GCP (where the app actually runs)
 # Monitoring         : logs, latency, cost, accuracy over time
 # Experiment tracking: MLflow / Weights & Biases
+
+# --- 5. Key terms to remember ---
+# Deployment      : making your model available to real users
+# Pipeline        : automated chain of steps (build -> test -> deploy)
+# Model drift     : model gets worse because real data changed
+# Reproducibility : anyone can rerun and get the same result
+# Containers      : lightweight packaged app + its dependencies
+
+# --- 6. Our learning path (using the RAG agent project) ---
+# Step 1: Wrap the RAG agent in a FastAPI app
+# Step 2: Dockerize it
+# Step 3: Deploy on a free cloud tier
+# Step 4: Add CI/CD with GitHub Actions
+# Step 5: Add basic monitoring/logging
+
+# --- 7. One-line summary ---
+# MLOps = making ML models reliable, repeatable and live
