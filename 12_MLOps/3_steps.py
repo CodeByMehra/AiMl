@@ -16,3 +16,24 @@
 # Step 8 : Deploy on AWS EC2
 # Step 9 : Deployment strategies
 # Step 10: CI/CD pipeline (automatic test + deploy)
+
+# --- 4. Model lifecycle (from the Step 6 slide) ---
+# Experiments --(param values)--> DVC Pipeline
+#   --(trained model)--> Model Registry
+#   --(staging)--> Testing
+#   --(production)--> model served by the Backend API
+# Idea: a model only reaches production after passing staging tests.
+
+# --- 5. Improvements (next level) ---
+# a) Monitoring -> track the app -> Prometheus / Grafana
+# b) Retraining loop (retrain when data/performance drifts)
+# Tool upgrades (simple tool -> advanced tool):
+#   MLflow        -> Weights & Biases (W&B)
+#   DVC pipeline  -> Airflow / Kubeflow
+#   ASG (Auto Scaling Group, as I read it) -> Kubernetes
+#   AWS           -> GCP / Azure
+# Many of these together -> AWS SageMaker (all-in-one platform)
+
+# --- 6. One-line summary ---
+# Data -> Experiment -> Automate -> Register -> Test -> API
+#   -> Docker -> Deploy -> Strategy -> CI/CD -> Monitor -> Retrain
