@@ -26,3 +26,12 @@
 #   Data Warehouse   : cleaned, structured data for analysis/reports
 #   Data Lake        : huge amounts of raw data in any format
 #   Object/File store: files such as images, audio, CSV (e.g. S3)
+
+# --- 5. Tools to remember ---
+# Ingestion      : Kafka, Kinesis
+# Transformation : Apache Spark
+# Overall ETL    : Amazon Glue, Talend, Snowflake,
+#                  Apache NiFi, Informatica
+# Data validation: Great Expectations (it appears in the slide,
+#                  but the name was cut off in my photo)
+
