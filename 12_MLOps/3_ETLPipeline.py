@@ -18,3 +18,11 @@
 # Clean and reshape the raw data so it is usable.
 # Done with: Python (small/medium data) or Spark (very large data)
 # Example work: remove duplicates, fix missing values, change formats
+
+# --- 4. Step 3: LOAD (Data Storage) ---
+# Store the processed data. The 5 storage types:
+#   Database (SQL)   : structured tables (e.g. MySQL, PostgreSQL)
+#   NoSQL database   : flexible, non-table data (e.g. MongoDB)
+#   Data Warehouse   : cleaned, structured data for analysis/reports
+#   Data Lake        : huge amounts of raw data in any format
+#   Object/File store: files such as images, audio, CSV (e.g. S3)
