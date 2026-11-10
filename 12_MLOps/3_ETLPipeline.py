@@ -8,3 +8,8 @@
 # This work is mostly done by the DATA ENGINEER.
 # The pipeline is called an ETL pipeline:
 #       Extract  ->  Transform  ->  Load
+
+# --- 2. Step 1: EXTRACT (Data Ingestion) ---
+# Collect raw data from different sources (apps, APIs, databases).
+# Done with: Python, SQL
+# Streaming tools: Kafka, Kinesis (for data arriving continuously)
