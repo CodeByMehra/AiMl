@@ -13,3 +13,8 @@
 # Collect raw data from different sources (apps, APIs, databases).
 # Done with: Python, SQL
 # Streaming tools: Kafka, Kinesis (for data arriving continuously)
+
+# --- 3. Step 2: TRANSFORM (Data Transformation) ---
+# Clean and reshape the raw data so it is usable.
+# Done with: Python (small/medium data) or Spark (very large data)
+# Example work: remove duplicates, fix missing values, change formats
