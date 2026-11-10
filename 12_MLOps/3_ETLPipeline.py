@@ -35,3 +35,10 @@
 # Data validation: Great Expectations (it appears in the slide,
 #                  but the name was cut off in my photo)
 
+# --- 6. Why it matters for ML ---
+# Model quality depends on data quality.
+# A good ETL pipeline means clean, fresh and reliable data
+# reaches the training step automatically.
+
+# --- 7. One-line summary ---
+# ETL = Extract (ingest) -> Transform (clean) -> Load (store).
