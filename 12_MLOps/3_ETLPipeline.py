@@ -41,4 +41,4 @@
 # reaches the training step automatically.
 
 # --- 7. One-line summary ---
-# ETL = Extract (ingest) -> Transform (clean) -> Load (store).
+# ETL = Extract (ingest) -> Transform (clean) -> Load (store)
