@@ -1,5 +1,5 @@
 # ============================================================
-# NOTE 03: ETL PIPELINE (DATA MANAGEMENT IN MLOps)
+# NOTE 03: ETL PIPELINE (DATA MANAGEMENT IN MLOps) 
 # ============================================================
 
 # --- 1. What is it? ---
