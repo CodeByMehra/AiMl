@@ -72,3 +72,90 @@
 #     - Descriptive statistics
 #     - Complete EDA practice
 #
+# ============================================================
+# PHASE 3: MATPLOTLIB & SEABORN (DAY 08 - DAY 10)
+# ============================================================
+#
+# [ ] DAY 08 - Matplotlib
+#     - Figure and Axes
+#     - Line plots
+#     - Bar charts
+#     - Histograms
+#     - Scatter plots
+#     - Subplots and customization
+#
+# [ ] DAY 09 - Seaborn
+#     - Distribution plots
+#     - Box plots and violin plots
+#     - Count plots
+#     - Heatmaps
+#     - Pair plots
+#     - Regression plots
+#
+# [ ] DAY 10 - Visualization Practice
+#     - Complete EDA workflow
+#     - Univariate analysis
+#     - Bivariate analysis
+#     - Multivariate analysis
+#     - Correlation visualization
+#     - Practice on a real dataset
+#
+# ============================================================
+# PHASE 4: SUPERVISED MACHINE LEARNING (DAY 11 - DAY 17)
+# ============================================================
+#
+# [ ] DAY 11 - ML Fundamentals
+#     - Machine Learning workflow
+#     - Supervised vs Unsupervised Learning
+#     - Features and labels
+#     - Training, validation and testing
+#     - Bias-variance tradeoff
+#     - Overfitting and underfitting
+#
+# [ ] DAY 12 - Linear Models
+#     - Linear Regression
+#     - Multiple Linear Regression
+#     - Polynomial Regression
+#     - Gradient Descent
+#     - Cost functions
+#     - Logistic Regression
+#
+# [ ] DAY 13 - Classification Algorithms
+#     - K-Nearest Neighbors (KNN)
+#     - Naive Bayes
+#     - Support Vector Machines (SVM)
+#     - Decision Trees
+#     - Gini Index and Entropy
+#
+# [ ] DAY 14 - Advanced ML Algorithms
+#     - Random Forest
+#     - Bagging
+#     - Boosting
+#     - AdaBoost
+#     - Gradient Boosting
+#     - XGBoost
+#
+# [ ] DAY 15 - Model Evaluation
+#     - Confusion Matrix
+#     - Accuracy
+#     - Precision and Recall
+#     - F1 Score
+#     - ROC-AUC
+#     - MAE, MSE and RMSE
+#
+# [ ] DAY 16 - Feature Engineering
+#     - Feature Scaling
+#     - Standardization and Normalization
+#     - Label Encoding
+#     - One-Hot Encoding
+#     - Feature Selection
+#     - Handling Imbalanced Datasets
+#
+# [ ] DAY 17 - ML Practical Revision
+#     - End-to-end classification project
+#     - End-to-end regression project
+#     - Scikit-learn Pipeline
+#     - Cross-validation
+#     - Hyperparameter tuning
+#     - GridSearchCV and RandomizedSearchCV
+#
