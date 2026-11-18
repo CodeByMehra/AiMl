@@ -159,9 +159,9 @@
 #     - Hyperparameter tuning
 #     - GridSearchCV and RandomizedSearchCV
 #
-# ============================================================
+# ===========================================================
 # PHASE 5: DEEP LEARNING (DAY 18 - DAY 20)
-# ============================================================
+# ===========================================================
 #
 # [ ] DAY 18 - Neural Network Fundamentals
 #     - Artificial Neural Networks
