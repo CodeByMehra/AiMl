@@ -357,3 +357,68 @@
 #     - Hugging Face Transformers
 #     - Practical implementation
 #
+# ============================================================
+# PHASE 9: RETRIEVAL-AUGMENTED GENERATION (DAY 28 - DAY 29)
+# ============================================================
+#
+# [ ] DAY 28 - RAG Fundamentals
+#     - What is RAG?
+#     - Traditional LLM vs RAG
+#     - RAG Architecture
+#     - Document Loading
+#     - Text Splitting and Chunking
+#     - Embeddings
+#     - Vector Databases
+#     - Similarity Search
+#
+# [ ] DAY 29 - RAG Implementation
+#     - Document Ingestion Pipeline
+#     - Vector Database Integration
+#     - Retrieval Process
+#     - Context Augmentation
+#     - Prompt Engineering
+#     - RAG Evaluation
+#     - LangChain RAG Implementation
+#     - Basic RAG vs Advanced RAG
+#
+# ============================================================
+# PHASE 10: FINAL REVISION & ASSESSMENT (DAY 30)
+# ============================================================
+#
+# [ ] DAY 30 - Complete AI/ML Revision
+#     - Revise important ML algorithms
+#     - Revise Neural Network fundamentals
+#     - Revise GAN and RL concepts
+#     - Revise Transformer architecture
+#     - Revise complete RAG pipeline
+#     - Implement one end-to-end AI/ML application
+#     - Practice AI/ML interview questions
+#     - Explain concepts without referring to notes
+#
+# ============================================================
+#                  FINAL TARGET
+# ============================================================
+#
+# [ ] NumPy
+# [ ] Pandas
+# [ ] Matplotlib
+# [ ] Seaborn
+# [ ] Supervised Machine Learning
+# [ ] Deep Learning
+# [ ] GANs
+# [ ] Reinforcement Learning
+# [ ] Transformers
+# [ ] Retrieval-Augmented Generation (RAG)
+#
+# RULES:
+# 1. Write code every day.
+# 2. Revise concepts instead of memorizing definitions.
+# 3. Implement important algorithms wherever possible.
+# 4. Maintain short notes for difficult concepts.
+# 5. Practice explaining concepts aloud.
+# 6. Do not mark a day complete until practical revision is done.
+#
+# ============================================================
+#                  30 DAYS. ONE GOAL.
+#              MASTER YOUR AI/ML CONCEPTS.
+# ============================================================
