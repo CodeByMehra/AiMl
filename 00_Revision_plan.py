@@ -159,3 +159,201 @@
 #     - Hyperparameter tuning
 #     - GridSearchCV and RandomizedSearchCV
 #
+# ============================================================
+# PHASE 5: DEEP LEARNING (DAY 18 - DAY 20)
+# ============================================================
+#
+# [ ] DAY 18 - Neural Network Fundamentals
+#     - Artificial Neural Networks
+#     - Perceptron
+#     - Neurons and Layers
+#     - Weights and Biases
+#     - Activation Functions
+#     - Forward Propagation
+#
+# [ ] DAY 19 - Training Neural Networks
+#     - Backpropagation
+#     - Gradient Descent
+#     - Optimizers (SGD, Adam, RMSprop)
+#     - Loss Functions
+#     - Learning Rate
+#     - Batch Size and Epochs
+#     - Regularization and Dropout
+#
+# [ ] DAY 20 - Deep Learning Architectures
+#     - Artificial Neural Networks (ANN)
+#     - Convolutional Neural Networks (CNN)
+#     - Recurrent Neural Networks (RNN)
+#     - LSTM and GRU
+#     - Vanishing and Exploding Gradients
+#     - PyTorch / TensorFlow practical revision
+#
+# ============================================================
+# PHASE 6: GANs (DAY 21 - DAY 22)
+# ============================================================
+#
+# [ ] DAY 21 - GAN Fundamentals
+#     - Introduction to Generative AI
+#     - Generative vs Discriminative Models
+#     - GAN Architecture
+#     - Generator and Discriminator
+#     - Adversarial Training
+#     - GAN Loss Functions
+#
+# [ ] DAY 22 - GAN Implementation
+#     - GAN Training Process
+#     - Mode Collapse
+#     - Training Instability
+#     - DCGAN Architecture
+#     - Implement a basic GAN
+#
+# ============================================================
+# PHASE 7: REINFORCEMENT LEARNING (DAY 23 - DAY 24)
+# ============================================================
+#
+# [ ] DAY 23 - RL Fundamentals
+#     - Introduction to Reinforcement Learning
+#     - Agent and Environment
+#     - State and Action
+#     - Reward and Policy
+#     - Return and Discount Factor
+#     - Markov Decision Process (MDP)
+#     - Exploration vs Exploitation
+#
+# [ ] DAY 24 - RL Algorithms
+#     - Value Functions
+#     - Bellman Equation
+#     - Q-Learning
+#     - SARSA
+#     - Deep Q-Network (DQN)
+#     - Policy Gradient Fundamentals
+#     - Practical RL implementation
+#
+# ============================================================
+# PHASE 8: TRANSFORMERS (DAY 25 - DAY 27)
+# ============================================================
+#
+# [ ] DAY 25 - Transformer Fundamentals
+#     - Introduction to Transformers
+#     - Encoder and Decoder
+#     - Tokenization
+#     - Embeddings
+#     - Positional Encoding
+#     - Self-Attention Mechanism
+#
+# [ ] DAY 26 - Transformer Architecture
+#     - Query, Key and Value
+#     - Scaled Dot-Product Attention
+#     - Multi-Head Attention
+#     - Feed Forward Networks
+#     - Layer Normalization
+#     - Residual Connections
+#     - Masked Attention
+#
+# [ ] DAY 27 - Modern Transformers
+#     - BERT Architecture
+#     - GPT Architecture
+#     - T5 Architecture
+#     - Pre-training and Fine-tuning
+#     - Hugging Face Transformers
+#     - Practical implementation
+#
+# ============================================================
+# PHASE 5: DEEP LEARNING (DAY 18 - DAY 20)
+# ============================================================
+#
+# [ ] DAY 18 - Neural Network Fundamentals
+#     - Artificial Neural Networks
+#     - Perceptron
+#     - Neurons and Layers
+#     - Weights and Biases
+#     - Activation Functions
+#     - Forward Propagation
+#
+# [ ] DAY 19 - Training Neural Networks
+#     - Backpropagation
+#     - Gradient Descent
+#     - Optimizers (SGD, Adam, RMSprop)
+#     - Loss Functions
+#     - Learning Rate
+#     - Batch Size and Epochs
+#     - Regularization and Dropout
+#
+# [ ] DAY 20 - Deep Learning Architectures
+#     - Artificial Neural Networks (ANN)
+#     - Convolutional Neural Networks (CNN)
+#     - Recurrent Neural Networks (RNN)
+#     - LSTM and GRU
+#     - Vanishing and Exploding Gradients
+#     - PyTorch / TensorFlow practical revision
+#
+# ============================================================
+# PHASE 6: GANs (DAY 21 - DAY 22)
+# ============================================================
+#
+# [ ] DAY 21 - GAN Fundamentals
+#     - Introduction to Generative AI
+#     - Generative vs Discriminative Models
+#     - GAN Architecture
+#     - Generator and Discriminator
+#     - Adversarial Training
+#     - GAN Loss Functions
+#
+# [ ] DAY 22 - GAN Implementation
+#     - GAN Training Process
+#     - Mode Collapse
+#     - Training Instability
+#     - DCGAN Architecture
+#     - Implement a basic GAN
+#
+# ============================================================
+# PHASE 7: REINFORCEMENT LEARNING (DAY 23 - DAY 24)
+# ============================================================
+#
+# [ ] DAY 23 - RL Fundamentals
+#     - Introduction to Reinforcement Learning
+#     - Agent and Environment
+#     - State and Action
+#     - Reward and Policy
+#     - Return and Discount Factor
+#     - Markov Decision Process (MDP)
+#     - Exploration vs Exploitation
+#
+# [ ] DAY 24 - RL Algorithms
+#     - Value Functions
+#     - Bellman Equation
+#     - Q-Learning
+#     - SARSA
+#     - Deep Q-Network (DQN)
+#     - Policy Gradient Fundamentals
+#     - Practical RL implementation
+#
+# ============================================================
+# PHASE 8: TRANSFORMERS (DAY 25 - DAY 27)
+# ============================================================
+#
+# [ ] DAY 25 - Transformer Fundamentals
+#     - Introduction to Transformers
+#     - Encoder and Decoder
+#     - Tokenization
+#     - Embeddings
+#     - Positional Encoding
+#     - Self-Attention Mechanism
+#
+# [ ] DAY 26 - Transformer Architecture
+#     - Query, Key and Value
+#     - Scaled Dot-Product Attention
+#     - Multi-Head Attention
+#     - Feed Forward Networks
+#     - Layer Normalization
+#     - Residual Connections
+#     - Masked Attention
+#
+# [ ] DAY 27 - Modern Transformers
+#     - BERT Architecture
+#     - GPT Architecture
+#     - T5 Architecture
+#     - Pre-training and Fine-tuning
+#     - Hugging Face Transformers
+#     - Practical implementation
+#
