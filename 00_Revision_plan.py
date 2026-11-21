@@ -160,7 +160,7 @@
 #     - GridSearchCV and RandomizedSearchCV
 #
 # ===========================================================
-# PHASE 5: DEEP LEARNING (DAY 18 - DAY 20)
+# PHASE 5: DEEP LEARNING (DAY 18 - DAY 20) - priotiyy
 # ===========================================================
 #
 # [ ] DAY 18 - Neural Network Fundamentals
