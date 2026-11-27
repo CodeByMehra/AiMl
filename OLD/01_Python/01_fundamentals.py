@@ -185,7 +185,7 @@ x %= 3   # x = x % 3
 print(x)
 
 x **= 2  # x = x ** 2
-print(x)
+print(x) 
 
 # -------------------------------
 # 7.4 Logical Operators
